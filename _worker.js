@@ -10,7 +10,7 @@ const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "https://raw.githubusercontent.com/h58fmb0344g9h3/p57gdv3j3n0vg334/refs/heads/main/f74bjd2h2ko99f3j5";
 let cachedProxyList = [];
 
 // Constant
