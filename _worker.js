@@ -10,7 +10,7 @@ const apiEmail = "juf.shiel@gmail.com"; // Ganti dengan email yang kalian gunaka
 const accountID = "7ecc2ac4a38e0675652ce5119f354e4f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "18b5ec38756fe0212158da444347ffb8"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
+let proxyIP = "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt";
 let cachedProxyList = [];
 
 // Constant
