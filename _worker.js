@@ -5,12 +5,12 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "tiarnet.my.id"; // Ganti dengan domain utama kalian
 const serviceName = "server"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "pTOhHfMB7cGZaE-jVufg3GEqWF2fD2-IynNjcQOE"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "juf.shiel@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "7ecc2ac4a38e0675652ce5119f354e4f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "18b5ec38756fe0212158da444347ffb8"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "104.21.80.1";
+let proxyIP = "";
 let cachedProxyList = [];
 
 // Constant
